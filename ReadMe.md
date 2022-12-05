@@ -39,7 +39,7 @@ for getting gifs
 ```
 
 for music main commands
-```
+``` javascript
 // -----------------------------------------------------
 const status = queue =>
   `Volume: \`${queue.volume}%\` | Filter: \`${queue.filters.names.join(', ') || 'Off'}\` | Loop: \`${
