@@ -8,7 +8,6 @@ This this the file & links you need to start coding with us
 
 [NODE JS](https://nodejs.org/en/download/)
 
-[GIPHY DEV DASHBOARD](https://developers.giphy.com/dashboard/?)
 
 ## Commands you need to write in the termianl
 
@@ -24,6 +23,9 @@ npm i discordjs axios ascii-table fs ms chalk got@11.8.3 node-fetch@2.6.7
 [discord js guide](https://discordjs.guide/#before-you-begin)
 
 [discord developer portal](https://discord.com/developers/applications)
+
+[GIPHY DEV DASHBOARD](https://developers.giphy.com/dashboard/?)
+
 
 
 
