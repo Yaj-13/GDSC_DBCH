@@ -8,6 +8,8 @@ This this the file & links you need to start coding with us
 
 [NODE JS](https://nodejs.org/en/download/)
 
+[GIPHY DEV DASHBOARD](https://developers.giphy.com/dashboard/?)
+
 ## Commands you need to write in the termianl
 
 ```bash
@@ -26,7 +28,7 @@ npm i discordjs axios ascii-table fs ms chalk got@11.8.3 node-fetch@2.6.7
 
 
 
-## some texts you might need 
+## some codes you might need 
 for getting pics and vids from reddit
 ```javascript
 const got = require('got');
@@ -50,9 +52,12 @@ for getting gifs
 
 ```javascript
 const fetch = require("node-fetch");
-
-let  link  = await fetch('https://api.otakugifs.xyz/gif?reaction=hug').then(response => response.json());
+        const url = `http://api.giphy.com/v1/gifs/search?q=${search}&api_key=${config.gifq}&limit=100`
+        const respond = await fetch(url)
+        const res = await respond.json()
+        const randomIndex = Math.floor(Math.random() * res.data.length);
+        // res.data[randomIndex].images.original.url (is the gif url)
 ```
-
+**ALL FILES WILL BE UPLOADED HERE AFTER WE FINISH.**
 
 **For any problems reach me YAJ**
