@@ -16,7 +16,7 @@ npm init -y
 ```
 
 ```bash
-npm i discordjs axios ascii-table fs ms chalk got@11.8.3 node-fetch@2.6.7
+npm i discord.js axios ascii-table fs ms chalk got@11.8.3 node-fetch@2.6.7
 ```
 
 ## Websites will help you
